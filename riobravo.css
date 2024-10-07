@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: dimgrey;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: darkred;
+}
+
+footer h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+footer p {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: darkred;
+}
+
+
+article h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    color: darkred;
+}
+
+article h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin: 20px 0;
+    color: darkred;
+}
+
+article h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin: 20px 0;
+    color: darkred;
+}
+
+article h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin: 20px 0;
+    color: darkred;
+}
+
+article h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin: 20px 0;
+    color: darkred;
+}
+
+article h6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin: 20px 0;
+    color: darkred;
+}
+
+article p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: black;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: dimgrey;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.center-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .center-image {
+        max-width: 100%;
+    }
+}
